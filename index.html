@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/8ddae00893.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <br><span> Shivangi Patwa </span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------about---------------- -->
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="shi.jpg" alt="me">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">A Bit About Me</h1>
+                <p> <br> <br>
+                    Hello! I'm Shivangi Patwa.<br> <br>
+                    I am a final-year B.Tech student in Electrical Engineering at the National Institute of Technology, Durgapur, 
+                    currently maintaining a CGPA of 8.14. I completed my higher secondary education from St. John’s School, Ghazipur 
+                    (ISC Board) with 95.2%, and my secondary education from the same institution (ICSE Board) with 83.83%. <br><br>
+                    I have a strong interest in software development, data science, and machine learning, and I actively 
+                    practice Data Structures and Algorithms to strengthen my problem-solving and coding skills. I was selected 
+                    for the Amazon ML Summer School 2025 and contributed as an open-source participant in GirlScript Summer of Code 2024.<br><br>
+                    Beyond academics, I have served as Design Head of the Debating Society at NIT Durgapur and as Team Captain of the
+                    Athletics Team, demonstrating leadership, discipline, and teamwork. I have also represented my school at the CISCE
+                    National Athletic Meet, winning a bronze medal in relay, and earned multiple gold medals at the institute level.<br> <br>
+                    I am a motivated and resilient individual who enjoys learning new technologies and solving real-world problems. 
+                    I aspire to become a skilled Software Engineer and contribute to building impactful and meaningful solutions.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------skills------------ -->
+ <div id="skills">
+    <div class="container">
+        <h1 class="sub-title">Here Is What I Have Learned So Far</h1>
+<div class="skills-list">
+            <div>
+                <h2>Programming Languages:</h2>
+               <ul>
+                <li>C++</li>
+                <li>Python</li>
+                </ul>
+                <br>
+                <ul>
+                <h2>Web Technologies:</h2>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Data Science & Machine Learning:</h2>
+               <ul>
+                <li>Numpy</li>
+                <li>pandas</li>
+                <li>Scikit-learn</li>
+                <li>Seaborn</li>
+                <li>Matplotlib</li>
+                </ul>
+                <br>
+                <ul>
+                <h2>Database Technologies</h2>
+                <li>SQL</li>
+                <li>MYSQL</li>
+               </ul>
+            </div>
+            <div>
+                <h2>Computer Science Fundamentals:</h2>
+                <ul>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Object Oriented Programming</li>
+                    <li>Operating Systems</li>
+                    <li>Database Management Systems</li>
+                   </ul>
+                   <br>
+                   <h2>Soft Skills:</h2>
+                   <ul>
+                    <li>Problem Solving</li>
+                    <li>communication</li>
+                    <li>Leadership</li>
+                    <li>Teamwork</li>
+                    <li>Active Learning</li>
+                   </ul>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- --------project----------- -->
+  <div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.jpg" alt="1">
+                <div class="layer">
+                    <h3>Personal Portfolio Website</h3>
+                    <ul>
+                        <li>Developed a dynamic personal portfolio website using HTML, CSS, 
+                        and JavaScript to highlight projects, skills, and achievements. </li>
+                    </ul>
+                        <a href="https://shivangi-nitd26.github.io/portfolio/"><i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.jpg" alt="2">
+                <div class="layer">
+                    <h3>Spam Mail Detection Model</h3>
+                    <ul>
+                        <li>Developed a spam detection system in Python, achieving 96% accuracy using Logistic Regression.</li>
+                    </ul>
+                        <a href="https://github.com/Shivangi-NITD26/spammail"><i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.jpg" alt="3">
+                <div class="layer">
+                    <h3>Customer Churn Prediction Model (Backend Project)</h3> 
+                    <ul>
+                        <li>Built and evaluated churn prediction models using Python, Scikit-learn, 
+                            and XGBoost with accuracyfocused selection. </li>
+                    </ul>
+                        <a href="https://github.com/Shivangi-NITD26/-ml_project-churn-prediction"><i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+  </div>
+  <!-- ---------contact----------- -->                                                                                                                                                   
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">                                                                                                                                                                                                                                                                                                 
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shivagipatwa@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8400639160</p>                                                                                                                                                                                                                    
+                <div class="social-icons">
+                <a href="https://www.facebook.com/sona.patwa.9277?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/shiva_gipatwa?igsh=N3p5bTk4dWR0NHR4"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/shivangi-patwa-59b980288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright  ©: Shivangi Patwa</p>
+    </div>
+  </div>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+  </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxKPlADiF4HLCGbZzLfSRCIuo90IR6XxJwfP5XoJ8W7q-sJ8sLrory-rrWr8c3KLJIdSA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000) 
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
